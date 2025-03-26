@@ -21,7 +21,7 @@ const AIImageAnalysis = () => {
   const fileInputRef = useRef(null);
   const pageContainerRef = useRef(null);
 
-  const gemini_api_key = import.meta.env.VITE_GEMINI_API_KEY
+  const gemini_api_key = "AIzaSyDl0iOHjNL5D4FFR3OZsVjjy3U1ry_nw0k"
 
   // Generative AI setup
   const genAI = new GoogleGenerativeAI(
